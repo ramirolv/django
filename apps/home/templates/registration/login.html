@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+
+    <link rel="stylesheet" href="{% static 'css/Estilos_login.css' %}" />
+  </head>
+  <body>
+    <div class="login-box sombra">
+      <img class="avatar" src=" {% static 'img/logo-terminado.png' %} " alt="Logo Universo Digital">
+
+      <form method="post" class="">
+        {% csrf_token %}
+        <!-- usuario -->
+        <label for="usuario"> Usuario </label>
+        <input type="text" name="username" id="" placeholder="Ingresar usuario" />
+
+        <!-- contraseña -->
+        <label for="password"> Contraseña </label>
+        <input type="password" name="password" id="" placeholder="Ingresar contraseña" />
+
+        <input type="submit" value="Iniciar sesión" />  
+      </form>
+    </div>
+    <form action="" method="post"></form>
+  </body>
+</html>
