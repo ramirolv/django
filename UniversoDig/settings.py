@@ -34,18 +34,18 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-#CSRF_TRUSTED_ORIGINS = ['https://umgdwebprojectfinal-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://django-server-production-ce85.up.railway.app']
 
 CORS_REPLACE_HTTPS_REFERER = True
 
-#CSRF_COOKIE_DOMAIN = 'railway.app'
-"""
+CSRF_COOKIE_DOMAIN = 'railway.app'
+
 CORS_ORIGIN_WHITELIST = (
-    'https://umgdwebprojectfinal-production.up.railway.app',
-    'umgdwebprojectfinal-production.up.railway.app',
+    'https://django-server-production-ce85.up.railway.app',
+    'django-server-production-ce85.up.railway.app',
     'railway.app',
 )
-"""
+
 
 # Application definition
 
