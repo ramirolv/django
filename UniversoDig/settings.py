@@ -100,11 +100,11 @@ WSGI_APPLICATION = 'UniversoDig.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'railway',
-            'USER': 'root',
-            'PASSWORD': 'VUkdk6TYkC2z7R8YY3DM',
-            'HOST': 'containers-us-west-146.railway.app',
-            'PORT': '5872',
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD': '1bPJHUYLENJZJFtlt0KB',
+        'HOST': 'containers-us-west-115.railway.app',
+        'PORT': '7825',
     }
 }
 
